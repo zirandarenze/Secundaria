@@ -81,7 +81,30 @@
             Vamos a sacar un 11 este en los examenes !Si!
         </div>
     </div>
-
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Username</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="Tu usuario" required>
+          <div class="valid-tooltip">
+            Vamos bien!
+          </div>
+        </div>
+       
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Por favor teclea informacion valida.
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
 
     <!--Badges-->
     <div>
